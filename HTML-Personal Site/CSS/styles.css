@@ -1,0 +1,72 @@
+/******* TAG Selectors *******/
+
+
+body{
+    background-color: #fbfd8a;
+    padding-bottom: 0px;
+    margin: 0px;
+  /***  text-align: center ***/
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
+.style{
+  margin-top: 0px;
+  margin-left: 0px;
+
+}
+
+h3 {
+  color: green;
+  font-family: 'Montserrat', sans-serif;
+  margin-right: auto;
+}
+
+h1{
+  font-size: 30px;
+  margin-bottom: 0;
+  font-family: 'Sacramento', cursive;
+}
+
+/**
+img{
+  background-color:#318fb5;
+}
+**/
+
+img:hover {
+  background-color: gold;
+}
+div {
+  background-color: #0f4c75;
+  margin-top: 0.5px;
+}
+/********* Class Selectors ******/
+.football{
+  background-color: firebrick;
+}
+
+.circular{
+  border-radius: 100%;
+}
+
+.middle-container{
+  background-color: #900d0d;
+  width: 4000px;
+  height: 4000px;
+}
+
+/********* ID TAG ************/
+#heading {
+   color: #bbd196;
+}
+
+#big{
+  font-size: 1000px;
+}
