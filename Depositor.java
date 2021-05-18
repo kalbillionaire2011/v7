@@ -2,7 +2,7 @@
 public class Depositor {
 	private Name name2;
     private String socS_num;
-    
+
     //No Arg Constructor
     public Depositor() {
         name2 = new Name();
@@ -11,7 +11,7 @@ public class Depositor {
     //Parameter Constructor
     public Depositor(Name n2,String ssn3){
      name2 = n2;
-     socS_num = ssn3; 
+     socS_num = ssn3;
     }
 
     //Getter methods

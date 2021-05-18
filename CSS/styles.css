@@ -5,6 +5,8 @@ body{
     background-color: #fbfd8a;
     padding-bottom: 0px;
     margin: 0px;
+    text-align: center;
+  /***  text-align: center ***/
 }
 
 hr{
@@ -13,6 +15,7 @@ hr{
   border-color: grey;
   border-width: 5px;
   width: 5%;
+  margin: 0 auto;
 }
 
 .style{
@@ -24,6 +27,7 @@ hr{
 h3 {
   color: green;
   font-family: 'Montserrat', sans-serif;
+
 }
 
 h1{
@@ -38,12 +42,13 @@ img{
 }
 **/
 
+
 img:hover {
   background-color: gold;
 }
 div {
   background-color: #0f4c75;
-  margin-top: 0.5px;
+  /*margin-top: 5000px;*/
 }
 /********* Class Selectors ******/
 .football{
@@ -56,8 +61,8 @@ div {
 
 .middle-container{
   background-color: #900d0d;
-  width: 4000px;
-  height: 4000px;
+  width: 1000px;
+  height: 300px;
 }
 
 /********* ID TAG ************/
@@ -67,4 +72,12 @@ div {
 
 #big{
   font-size: 1000px;
+}
+
+/* Ceter imaga */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
