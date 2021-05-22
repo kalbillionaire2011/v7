@@ -1,0 +1,183 @@
+
+		 	 Bank Accounts  DataBase
+
+Names	   		 SocialSecurityNum	AccountNum	AccountType	  AccountBal
+Samantha   Persad    	  12345678		    500800	         CD	  800600.50
+Emma       Watson    	  34567810		    600700	   Checking	   75305.56
+Harold     Anthony   	  56789543		    900789	   Checking	  500200.25
+Sean       Johnson   	  60931101		    930129	   Checking	    4500.75
+Sophia     brown     	  50078068		    570800	    Savings	   56000.50
+Anna       Anthony   	  12007000		    679900	    Savings	    5600.65
+Tom        Brady     	  35006500		    500700	         CD	  510400.80
+Michael    Jordan    	  19842003		    232011	         CD	  600900.75
+Kobe       Bryant    	  24002300		    240023	         CD	  710600.90
+Peyton     Manning   	  10002000		    260016	         CD	  911000.50
+
+Transaction Requested: Balance Inquiry
+Account Number: 500800
+Current Balance: $800600.50
+
+Transaction Requested: Balance Inquiry
+Error: Account number 303800 does not exists
+
+Transaction Requested: Deposit
+Account Number: 600700
+Old Balance: $75305.56
+Amount to Deposit: $85000.75
+New Balance: $160306.31
+
+Transaction Requested: Deposit
+Account Number: 900789
+Error: $-100.00 is an invalid amount
+
+Transaction Requested: Deposit
+Error: Account number 344666 does not exist
+
+Transaction Requested: Withdrawal
+Account Number: 900789
+Old Balance: $500200.25
+Amount to Withdraw: $200.00
+New Balance: $500000.25
+
+Transaction Requested: Withdrawal
+Account Number: 679900
+Error: $-500.00 is an invalid amount
+
+
+Transaction Requested: Withdrawal
+Error: Account number 100100 does not exist
+
+Transaction Requested: New account
+Error: Account number 500800 already exists
+
+Transaction Requested: New Account
+Names		SocialSecurityNum	AccountNum	AccountType	AccountBal
+Ed	Smith	10004000		100400		  Checking	      45.00
+
+Transaction Requested: Deposit
+Account Number: 100400
+Old Balance: $45.00
+Amount to Deposit: $10.00
+New Balance: $55.00
+
+Transaction Requested: Withdrawal
+Account Number: 100400
+Old Balance: $55.00
+Amount to Withdraw: $2.00
+New Balance: $53.00
+
+Transaction Requested: Balance Inquiry
+Account Number: 100400
+Current Balance: $53.00
+
+Transaction Requested: New Account
+Names		SocialSecurityNum	AccountNum	AccountType	AccountBal
+Bod	Square	90003000		100300		   Savings	      20.00
+
+Transaction Requested: Deposit
+Account Number: 100300
+Old Balance: $20.00
+Amount to Deposit: $700.12
+New Balance: $720.12
+
+Transaction Requested: Balance Inquiry
+Account Number: 100300
+Current Balance: $720.12
+
+Transaction Requested: Withdrawal
+Account Number: 100300
+Old Balance: $720.12
+Amount to Withdraw: $300.05
+New Balance: $420.07
+
+Account Information for SSN 90003000 account requested
+Names	 SocialSecurityNum	AccountNum	AccountType	AccountBal
+Bod	Square	90003000	100300	   Savings  	     420.07 
+
+Transaction Requested: New Account
+Names		SocialSecurityNum	AccountNum	AccountType	AccountBal
+Bill	Gates	10001980		100200		        CD	       1.00
+
+Account Information for SSN 10001980 account requested
+Names	 SocialSecurityNum	AccountNum	AccountType	AccountBal
+Bill	Gates	10001980	100200	        CD  	       1.00 
+
+Transaction Requested: Balance Inquiry
+Account Number: 100200
+Current Balance: $1.00
+
+Transaction Requested: Withdrawal
+Account Number: 260016
+Account not pass Maturity date yet!! 
+
+Error: 9 is an invalid selection -  try again
+
+Transaction Requested: Account Inquiry
+Error: SSN 10002000 Does not exists
+
+Transaction Requested: Balance Inquiry
+Error: Account number 260016 does not exists
+
+Transaction Requested: Delete Account
+Error: Account number 600600 Does not exists
+
+Transaction Requested: New Account
+Names		SocialSecurityNum	AccountNum	AccountType	AccountBal
+Michael	Jordan	19842003		800567		  Checking	     200.00
+
+Error: E is an invalid selection -  try again
+
+Transaction Requested: Deposit
+Account Number: 800567
+Old Balance: $200.00
+Amount to Deposit: $23.00
+New Balance: $223.00
+
+Transaction Requested: Withdrawal
+Account Number: 500800
+Old Balance: $800600.50
+Amount to Withdraw: $500.00
+New Balance: $800100.50
+Enter a New Maturity month choices are 6,12,18 and 24
+Your New Date of Maturity is 
+10/17/2021
+
+Transaction Requested: Withdrawal
+Account Number: 500800
+Account not pass Maturity date yet!! 
+
+Transaction Requested: Checking Account
+Account Number: 100400
+Date on Check -> 14/3/2019
+The Current Date is: Thu Oct 17 00:49:57 EDT 2019
+Check amount $45.0
+Old Balance: $4500.75
+Error: $45.00 is an invalid amount
+New Balance: $4500.75
+Transaction Requested: Checking Account
+Account Number: 930129
+Date on Check -> 7/1/2016
+The Current Date is: Thu Oct 17 00:49:57 EDT 2019
+Check amount $5000.0
+Old Balance: $4500.75
+Error: $5000.00 is an invalid amount
+New Balance: $4500.75
+Error: G is an invalid selection -  try again
+
+
+		 	 Bank Accounts  DataBase
+
+Names	   		 SocialSecurityNum	AccountNum	AccountType	  AccountBal
+Samantha   Persad    	  12345678		    500800	         CD	  800100.50
+Emma       Watson    	  34567810		    600700	   Checking	  160306.31
+Sean       Johnson   	  60931101		    930129	   Checking	    4500.75
+Sophia     brown     	  50078068		    570800	    Savings	   56000.50
+Anna       Anthony   	  12007000		    679900	    Savings	    5600.65
+Tom        Brady     	  35006500		    500700	         CD	  510400.80
+Michael    Jordan    	  19842003		    232011	         CD	  600900.75
+Kobe       Bryant    	  24002300		    240023	         CD	  710600.90
+Ed         Smith     	  10004000		    100400	   Checking	      53.00
+Bod        Square    	  90003000		    100300	    Savings	     420.07
+Bill       Gates     	  10001980		    100200	         CD	       1.00
+Michael    Jordan    	  19842003		    800567	   Checking	     223.00
+
